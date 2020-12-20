@@ -10,20 +10,17 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-		🚧 Currently Under Construction 🚧
-        </h1>
+		<h1 className={styles.title}>🚧</h1>
+        <h1 className={styles.title}>Currently Under Construction</h1>
+		<h1 className={styles.title}>🚧</h1>
 
         <p className={styles.description}>
           We hope to be finished soon!
         </p>
-
-        <div className={styles.grid}>
           <a href="https://github.com/connorpawar" className={styles.card}>
             <h3>My Github &rarr;</h3>
 	    <img src="/Construction.jpg" alt="Construction Dog" width="256" height="256" />
           </a>
-        </div>
       </main>
 
       <footer className={styles.footer}>

@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -22,7 +21,7 @@ export default function Home() {
         <div className={styles.grid}>
           <a href="https://github.com/connorpawar" className={styles.card}>
             <h3>My Github &rarr;</h3>
-			<Image src="/Construction.jpg" alt="Construction Dog" width="512" height="512" />
+			<img src="/Construction.jpg" alt="Construction Dog" width="512" height="512" />
           </a>
         </div>
       </main>

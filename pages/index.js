@@ -21,7 +21,7 @@ export default function Home() {
         <div className={styles.grid}>
           <a href="https://github.com/connorpawar" className={styles.card}>
             <h3>My Github &rarr;</h3>
-			<img src="/Construction.jpg" alt="Construction Dog" width="384" height="384" />
+	    <img src="/Construction.jpg" alt="Construction Dog" width="256" height="256" />
           </a>
         </div>
       </main>
